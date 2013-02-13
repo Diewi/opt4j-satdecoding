@@ -13,7 +13,7 @@
  * along with Opt4J. If not, see http://www.gnu.org/licenses/.
  */
 
-package org.opt4j.sat;
+package org.opt4j.satdecoding;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -24,8 +24,8 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 
-import org.opt4j.common.random.Rand;
 import org.opt4j.core.Genotype;
+import org.opt4j.core.common.random.Rand;
 import org.opt4j.core.optimizer.Optimizer;
 import org.opt4j.core.problem.Creator;
 import org.opt4j.core.problem.Decoder;

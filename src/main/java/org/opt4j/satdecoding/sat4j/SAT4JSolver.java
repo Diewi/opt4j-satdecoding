@@ -13,11 +13,11 @@
  * along with Opt4J. If not, see http://www.gnu.org/licenses/.
  */
 
-package org.opt4j.sat.sat4j;
+package org.opt4j.satdecoding.sat4j;
 
-import static org.opt4j.sat.Constraint.Operator.EQ;
-import static org.opt4j.sat.Constraint.Operator.GE;
-import static org.opt4j.sat.Constraint.Operator.LE;
+import static org.opt4j.satdecoding.Constraint.Operator.EQ;
+import static org.opt4j.satdecoding.Constraint.Operator.GE;
+import static org.opt4j.satdecoding.Constraint.Operator.LE;
 
 import java.math.BigInteger;
 import java.util.HashMap;
@@ -26,17 +26,17 @@ import java.util.Map.Entry;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
-import org.opt4j.config.annotations.Info;
-import org.opt4j.sat.Constraint;
-import org.opt4j.sat.Constraint.Operator;
-import org.opt4j.sat.ContradictionException;
-import org.opt4j.sat.Literal;
-import org.opt4j.sat.Model;
-import org.opt4j.sat.Order;
-import org.opt4j.sat.Solver;
-import org.opt4j.sat.TimeoutException;
-import org.opt4j.sat.VarOrder;
-import org.opt4j.start.Constant;
+import org.opt4j.core.config.annotations.Info;
+import org.opt4j.core.start.Constant;
+import org.opt4j.satdecoding.Constraint;
+import org.opt4j.satdecoding.ContradictionException;
+import org.opt4j.satdecoding.Literal;
+import org.opt4j.satdecoding.Model;
+import org.opt4j.satdecoding.Order;
+import org.opt4j.satdecoding.Solver;
+import org.opt4j.satdecoding.TimeoutException;
+import org.opt4j.satdecoding.VarOrder;
+import org.opt4j.satdecoding.Constraint.Operator;
 import org.sat4j.core.Vec;
 import org.sat4j.core.VecInt;
 import org.sat4j.minisat.core.LearningStrategy;

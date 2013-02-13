@@ -13,7 +13,7 @@
  * along with Opt4J. If not, see http://www.gnu.org/licenses/.
  */
 
-package org.opt4j.sat;
+package org.opt4j.satdecoding;
 
 import com.google.inject.ImplementedBy;
 

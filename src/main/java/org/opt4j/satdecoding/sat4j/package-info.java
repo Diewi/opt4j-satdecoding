@@ -16,4 +16,4 @@
 /**
  * Provides classes for solving (0-1) ILPs using the SAT4J package.
  */
-package org.opt4j.sat.sat4j;
+package org.opt4j.satdecoding.sat4j;

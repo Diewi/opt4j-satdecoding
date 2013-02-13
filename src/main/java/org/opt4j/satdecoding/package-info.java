@@ -149,5 +149,5 @@
  * 
  * </p>
  */
-package org.opt4j.sat;
+package org.opt4j.satdecoding;
 

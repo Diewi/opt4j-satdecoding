@@ -13,17 +13,17 @@
  * along with Opt4J. If not, see http://www.gnu.org/licenses/.
  */
 
-package org.opt4j.sat;
+package org.opt4j.satdecoding;
 
 import java.util.List;
 import java.util.Map;
 
 import org.opt4j.core.Genotype;
-import org.opt4j.genotype.BooleanGenotype;
-import org.opt4j.genotype.BooleanMapGenotype;
-import org.opt4j.genotype.DoubleBounds;
-import org.opt4j.genotype.DoubleGenotype;
-import org.opt4j.genotype.DoubleMapGenotype;
+import org.opt4j.core.genotype.BooleanGenotype;
+import org.opt4j.core.genotype.BooleanMapGenotype;
+import org.opt4j.core.genotype.DoubleBounds;
+import org.opt4j.core.genotype.DoubleGenotype;
+import org.opt4j.core.genotype.DoubleMapGenotype;
 
 import com.google.inject.Inject;
 import com.google.inject.Singleton;

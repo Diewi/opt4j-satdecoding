@@ -13,14 +13,14 @@
  * along with Opt4J. If not, see http://www.gnu.org/licenses/.
  */
 
-package org.opt4j.sat;
+package org.opt4j.satdecoding;
 
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import org.opt4j.start.Constant;
+import org.opt4j.core.start.Constant;
 
 import com.google.inject.Inject;
 import com.google.inject.Provider;

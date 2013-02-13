@@ -13,17 +13,17 @@
  * along with Opt4J. If not, see http://www.gnu.org/licenses/.
  */
 
-package org.opt4j.sat.sat4j;
+package org.opt4j.satdecoding.sat4j;
 
-import org.opt4j.config.Icons;
-import org.opt4j.config.annotations.Icon;
-import org.opt4j.config.annotations.Info;
-import org.opt4j.config.annotations.Order;
-import org.opt4j.config.annotations.Required;
-import org.opt4j.sat.SATModule;
-import org.opt4j.sat.sat4j.SAT4JSolver.Learning;
-import org.opt4j.sat.sat4j.SAT4JSolver.Restarts;
-import org.opt4j.start.Constant;
+import org.opt4j.core.config.Icons;
+import org.opt4j.core.config.annotations.Icon;
+import org.opt4j.core.config.annotations.Info;
+import org.opt4j.core.config.annotations.Order;
+import org.opt4j.core.config.annotations.Required;
+import org.opt4j.core.start.Constant;
+import org.opt4j.satdecoding.SATModule;
+import org.opt4j.satdecoding.sat4j.SAT4JSolver.Learning;
+import org.opt4j.satdecoding.sat4j.SAT4JSolver.Restarts;
 
 /**
  * The {@link SAT4JModule} enables and configures the {@link SAT4JSolver}.

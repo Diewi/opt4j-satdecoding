@@ -13,12 +13,12 @@
  * along with Opt4J. If not, see http://www.gnu.org/licenses/.
  */
 
-package org.opt4j.sat;
+package org.opt4j.satdecoding;
 
 import org.opt4j.core.Genotype;
-import org.opt4j.genotype.BooleanGenotype;
-import org.opt4j.genotype.CompositeGenotype;
-import org.opt4j.genotype.DoubleGenotype;
+import org.opt4j.core.genotype.BooleanGenotype;
+import org.opt4j.core.genotype.CompositeGenotype;
+import org.opt4j.core.genotype.DoubleGenotype;
 
 /**
  * Specialized {@link Genotype} for the {@link AbstractSATDecoder}. The

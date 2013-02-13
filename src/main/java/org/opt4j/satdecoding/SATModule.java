@@ -13,9 +13,9 @@
  * along with Opt4J. If not, see http://www.gnu.org/licenses/.
  */
 
-package org.opt4j.sat;
+package org.opt4j.satdecoding;
 
-import org.opt4j.start.Opt4JModule;
+import org.opt4j.core.start.Opt4JModule;
 
 /**
  * Module class for a SAT-{@link Solver}.
