@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Opt4J Satdecoding
+Bundle-SymbolicName: org.opt4j.satdecoding;singleton:=true
+Bundle-Version: 2.11.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: fortiss GmbH
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.opt4j.core.Opt4JSatdecodingActivator
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.9.100";visibility:=reexport
+Export-Package: org.opt4j.sat,
+ org.opt4j.satdecoding,
+ org.opt4j.satdecoding.sat4j
